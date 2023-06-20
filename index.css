@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #282828;
+}
+
+header{
+    background-color: #282828;
+    color: whitesmoke;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    padding: 25px;
+    margin: 0px;;
+}
+
+li {
+    cursor: pointer;
+}
+
+.logo{
+    font-size: 18px;
+}
+
+.icon{
+    width: 25px;
+}
+
+.align-right{
+    margin-left: auto;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 400;
+    margin: 30px 25px;
+}
+
+.item{
+    position: relative;
+}
+
+.item-img{
+    width: 100%;
+    display: block;
+
+}
+
+.img-banner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #cd6858;
+    color: whitesmoke;
+    padding: 7px 14px;
+}
+
+.caption{
+    margin: 0px 25px;
+    display: flex;
+    align-items: center;
+}
+
+button{
+    background: #cd6858;
+    color: whitesmoke;
+    padding: 10px 15px;
+    border: none;
+ 
+  
+    font-weight: bold;
+    margin-left: auto;
+}
+
+button:hover,
+button:focus{
+    cursor: pointer;
+}
+
+.chatbox-bg{
+    position: fixed;
+    display: flex;
+    bottom: 6px;
+    right: 6px;
+    background-color: #dda15e;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;;
+    box-shadow: 1px 1px 5px #999;
+}
+
+.chatbox-img{
+ width: 50%;
+ align-self: center;
+ margin: 0 auto;
+ 
+ 
+}
